@@ -1,0 +1,20 @@
+{
+  "name": "NodeJS-Jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/main.js",
+    "test": "jest --passWithNoTests --watchAll --config ./jest.config.json"
+  },
+  "keywords": [],
+  "author": "Mike Watkins",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "node": "^17.3.1"
+  },
+  "dependencies": {
+    "npm": "^8.3.2"
+  }
+}
